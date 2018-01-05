@@ -1,0 +1,1 @@
+Compile test.c with gcc or try and run the executable, should probably just work if on RPi (3 Zero W). "sudo ./test 80" where 80 is the port number. Make sure port 80 is allowed by the firewall. I use the UFW application to manage the firewall.
