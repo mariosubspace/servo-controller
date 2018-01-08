@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 598842988}
   - component: {fileID: 598842987}
   - component: {fileID: 598842986}
+  - component: {fileID: 598842991}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -300,6 +301,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &598842991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 598842985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f76fbf9d0bd5e6c48850b2862c549c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultEvents:
+    OnValueChanged:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: VRTK.VRTK_Control+ValueChangedEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  interactWithoutGrab: 0
+  connectedTo: {fileID: 0}
+  grabType: 0
+  detatchDistance: 0.5
+  minimumValue: 0
+  maximumValue: 10
+  stepSize: 1
+  snapToStep: 0
+  grabbedFriction: 25
+  releasedFriction: 10
+  maxAngle: 359
+  lockAtLimits: 0
 --- !u!1 &963166578
 GameObject:
   m_ObjectHideFlags: 0
